@@ -7,11 +7,13 @@ main{
   width: 910px;
   margin:auto;
 }
+/*right and left "containers/sections" of the website  */
 .right{
   width: 350px;
   float: right;
   margin-top: 10px;
 }
+/*top instagram logo  */
 .right .logo{
   width: 175px;
   height: 51px;
@@ -20,6 +22,7 @@ main{
 .right p{
   text-align: center;
 }
+/*iphone and androud icons */
 .right .badges{
   width: 136px;
   height: 40px;
@@ -42,6 +45,7 @@ form button{
   width: 242px;
   height: 26px;
 }
+/*Setting a background and making a div inline allows us to pretend to be a line  */
 .leftLine{
   background-color: lightgrey;
   margin-left:55px;
@@ -51,6 +55,7 @@ form button{
   height: 3px;
   display: inline-block;
 }
+/*same concept as the leftline, this is the right line after the OR  */
 .rightLine{
   background-color: lightgrey;
   margin-top: 10px;
@@ -59,6 +64,8 @@ form button{
   height: 3px;
   display: inline-block;
 }
+/*this handles the middle div the OR
+if i had used paragraph the alignment of the lines will mismatch  */
 .mid{
   padding: 0 5px;
   margin-top: 15px;
@@ -79,6 +86,7 @@ form input{
 form input:last-child{
   margin-bottom: 150px;
 }
+
 form p{
   font-weight: bold;
   line-height: 20px;

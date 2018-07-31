@@ -1,0 +1,122 @@
+
+body{
+  background-color: #fafafa
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+main{
+  width: 910px;
+  margin:auto;
+}
+.right{
+width: 350px;
+float: right;
+margin-top: 10px;
+}
+.right .logo{
+  width: 175px;
+  height: 51px;
+  margin: 22px 86.5px 12px 86.5px;
+}
+.right p{
+  text-align: center;
+}
+.right .badges{
+  width: 136px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 25px;
+}
+form{
+border: 1px lightgrey solid;
+border-radius: 2px;
+font-size: 16px;
+background-color: #fff
+}
+form button{
+background-color: #3897f0;
+color: white;
+border-radius: 3px;
+display: block;
+margin: auto;
+padding: 0px 12px;
+width: 242px;
+height: 26px;
+}
+.leftLine{
+  background-color: lightgrey;
+  margin-left:55px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 3px;
+  display: inline-block;
+}
+.rightLine{
+  background-color: lightgrey;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 3px;
+  display: inline-block;
+}
+.mid{
+  padding: 0 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+form input{
+  border-radius: 3px;
+  display: block;
+  height: 20px;
+  width: 240px;
+  margin: 10px auto;
+  line-height: 18px;
+  background-color: #fafafa;
+}
+form input:last-child{
+  margin-bottom: 150px;
+}
+form p{
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 17px;
+  margin: 10px 40px 10px;
+  text-align:center;
+  color: #999;
+}
+.account{
+  border: 1px lightgrey solid;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #fff
+}
+.account a{
+  padding-left: 2px;
+}
+.left{
+  width: 454px;
+  padding-left:100px;
+  float:left;
+}
+footer{
+  clear: both;
+}
+footer ul{
+  list-style-type: none;
+  padding-top: 20px;
+}
+footer ul li{
+  display: inline;
+  margin-left: 3px;
+  text-transform: uppercase;
+  color: #3897f0;
+  font-size: 12px;
+}
+footer ul li:last-child{
+  margin-left: 220px;
+  color:#999;
+  font-weight: bold;
+}

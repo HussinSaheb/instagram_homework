@@ -5,7 +5,7 @@ body{
 }
 main{
   width: 910px;
-  margin:auto;
+  margin: auto;
 }
 /*right and left "containers/sections" of the website  */
 .right{
@@ -44,6 +44,10 @@ form button{
   padding: 0px 12px;
   width: 242px;
   height: 26px;
+}
+form button:hover{
+  background-color: navy;
+  transition: 1s background-color;
 }
 /*Setting a background and making a div inline allows us to pretend to be a line  */
 .leftLine{
